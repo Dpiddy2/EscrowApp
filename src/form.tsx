@@ -4,6 +4,12 @@ import "./App.css";
 const Form = () => {
   return (
     <div className="bigformcontainer">
+      <div className="marguper">
+        <button className="form-buttonupper">Outgoing Escrows</button>
+        <button className="form-buttonupper">Incoming Escrows</button>
+      </div>
+      <button className="form-buttonupper">ESCROW ID #</button>
+
       <div className="form-container">
         <div className="form-section">
           <label className="form-label">Trade Description</label>

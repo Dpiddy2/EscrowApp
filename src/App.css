@@ -94,7 +94,7 @@
   display: flex;
   position: relative;
   width: 100vw;
-  height: 120vh;
+  height: 150vh;
   flex-direction: column;
   overflow: hidden;
   
@@ -181,6 +181,7 @@
     display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  margin-top: 10px;
   border: 3px solid #383241; /* Added border property */
   border-bottom: 10px solid #383241; /* Updated border property */
   border-left: 4px solid #383241;
@@ -246,6 +247,10 @@
   overflow: hidden; /* Added overflow property */
 }
 
+.marguper {
+overflow: hidden; /* Added overflow property */
+}
+
 .form-buttonunder {
   background-color: #7c68ee;
   color: white;
@@ -257,6 +262,20 @@
   margin-left: 10px;
   margin-top: 10px;
   width: 20%;
+  border: 3px solid #726fb1; /* Added border property */
+
+}
+
+.form-buttonupper {
+  background-color: #372f63;
+  color: white;
+  border: none;
+  border-radius: 10px; /* Increased border-radius */
+  padding: 14px; /* Increased padding */
+  cursor: pointer;
+  font-size: 22px; /* Increased font size */
+  margin-left: 10px;
+  margin-top: 10px;
   border: 3px solid #726fb1; /* Added border property */
 
 }
