@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'Mukta-Medium';
+  src: url('C:\Users\parsa\app\escrow\public\Fonts') format('truetype');
+}
+
+@font-face {
+  font-family: 'LeagueSpartan';
+  src: url('C:\Users\parsa\app\escrow\public\Spartan') format('truetype');
+}
+
+
+.heading1 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  color: #ffffff;
+  font-size: 58px;
+  line-height: 62px;
+  letter-spacing: 0px;
+  font-family: 'LeagueSpartan', sans-serif;
+  font-weight:700;
+}
+
+.subheading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  font-family: 'LeagueSpartan', sans-serif;
+  font-weight:500;
+}
+
+.formheader {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  font-family: 'LeagueSpartan', sans-serif;
+  font-weight:500;
+}
+
+.formheader2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  font-family: 'Mukta-Medium', sans-serif;
+  font-weight:500;
+}
+.button {
+  background-color: #7c68ee;
+  border-radius: 15px;
+  padding: 10px 18px;
+  font-size: 18px;
+  font-family: 'LeagueSpartan', sans-serif;
+  font-weight:500;
+  line-height: 24px;
+  position: fixed;
+  top: 2.5%;
+  bottom: auto;
+  left: auto;
+  right: 1.5%;
+}
+
+.button2 {
+  background-color: #7c68ee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 10px 18px;
+  font-size: 18px;
+  font-family: 'Mukta-Medium', sans-serif;
+  font-weight:500;
+  line-height: 24px;
+  position: static;
+  top: 2.5%;
+  bottom: auto;
+  left: auto;
+  right: 1.5%;
+}
+
+.normalsection {
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  position: relative;
+  width: 100vw;
+  height: 120vh;
+  flex-direction: column;
+  overflow: hidden;
+  
+
+}
+
+.w-input, .w-select {
+  width: 100%;
+  height: 38px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  display: block;
+}
+
+.div-block-4 {
+  width: 70%;
+  height: 300px;
+  background-color: #21202e;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 23px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 2px solid white;
+}
+
+
+.textarea {
+  border-radius: 5px;
+  padding: 2px 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.textarea3 {
+  border-radius: 5px;
+  padding: 2px 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 60px;
+  width: 40%;
+}
+
+
+.form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+
+
+.normalsectionwidth {
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form-container {
+  padding: 40px; /* Increased padding */
+  font-family: 'League Spartan', sans-serif;
+  display: flex;
+  border-radius: 15px; /* Increased border-radius */
+}
+
+.bigformcontainer {
+    background-color: #21202e;
+    padding: 10px; /* Increased padding */
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    border-radius: 15px; /* Increased border-radius */
+    display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 3px solid #383241; /* Added border property */
+  border-bottom: 10px solid #383241; /* Updated border property */
+  border-left: 4px solid #383241;
+  border-right: 4px solid #383241;
+
+
+
+}
+
+
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Added inside padding */
+  background-color: #403a93; /* Added background color */
+  border-radius: 15px; /* Increased border-radius */
+  border: 3px solid #2d2a5c; /* Added border property */
+  margin-left: 10px;
+  margin-right: 10px;
+
+
+}
+
+
+.form-label {
+  color: white;
+  margin-bottom: 20px; /* Increased margin */
+  font-size: 24px; /* Increased font size */
+}
+
+.form-textarea,
+.form-input {
+  border: 2px solid white; /* Increased border width */
+  border-radius: 10px; /* Increased border-radius */
+  padding: 15px; /* Increased padding */
+  margin-bottom: 20px; /* Increased margin */
+  color: white;
+  background-color: #21202e;
+  width: 80%;
+  font-size: 20px; /* Increased font size */
+  font-family: 'LeagueSpartan', sans-serif;
+
+}
+
+.form-button {
+  background-color: #7c68ee;
+  color: white;
+  border: none;
+  border-radius: 10px; /* Increased border-radius */
+  padding: 14px; /* Increased padding */
+  cursor: pointer;
+  font-size: 22px; /* Increased font size */
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 3px solid #726fb1; /* Added border property */
+
+  
+}
+
+.margbotom {
+  margin-bottom: 20px;
+  overflow: hidden; /* Added overflow property */
+}
+
+.form-buttonunder {
+  background-color: #7c68ee;
+  color: white;
+  border: none;
+  border-radius: 10px; /* Increased border-radius */
+  padding: 14px; /* Increased padding */
+  cursor: pointer;
+  font-size: 22px; /* Increased font size */
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 20%;
+  border: 3px solid #726fb1; /* Added border property */
+
+}
