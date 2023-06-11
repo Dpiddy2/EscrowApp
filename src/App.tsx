@@ -100,8 +100,7 @@ function App() {
       )}
       <button className="form-button" onClick={handleCreateOrder}>
         Create Order
-      </button>
-      {showCreateOrder && <Form connected={connected} />}
+      </button>{" "}
     </div>
   );
 }
